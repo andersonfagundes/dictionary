@@ -1,0 +1,37 @@
+.centeredDiv {
+  width: 736.99px;
+  height: 36.5px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 58px auto 0 auto;
+}
+.rightDiv {
+  width: 252.99px;
+  height: 32px;
+  /* border: 1px solid green; */
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+select {
+  position: relative;
+  background-image: url('../Assets/Arrow.png');
+  background-repeat: no-repeat;
+  background-position: right 1px center;
+}
+
+/* select option {
+  margin-right: 50px;
+} */
+
+/* select:focus {
+  outline: none;
+} */

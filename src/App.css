@@ -1,0 +1,46 @@
+body {
+  /* --type-first: Helvetica, Arial, sans-serif;
+  --type-secont: 'Spectral', georgia;
+  font-family: var(--type-first); */
+  color: #2d2d2d;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* img {
+  max-width: 100%;
+} */
+
+select {
+  appearance: none;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: white;
+  width: 120px;
+  font-size: 18px;
+}
+
+input {
+  display: block;
+  /* font-size:
+    font-family:
+    color: */
+}
+
+a {
+  text-decoration: none;
+}
