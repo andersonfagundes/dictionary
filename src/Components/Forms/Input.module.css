@@ -1,5 +1,26 @@
-.div {
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Spectral:wght@700&display=swap');
+
+.input-container {
+  position: relative;
 }
 
 .input {
+  margin-top: 52px;
+  width: 736px;
+  height: 64px;
+  background: #f4f4f4;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 25px;
+  font-family: 'Lora';
+  background-image: url('../../Assets/iconoir_magnifier.png'); /* Replace with the actual path to your PNG icon */
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+}
+
+.input:focus {
+  outline: none;
+  border: none;
 }

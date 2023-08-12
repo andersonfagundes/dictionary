@@ -3,7 +3,7 @@ import styles from './Input.module.css';
 
 const Input = ({ label, type, name, value, onChange, error, onBlur }) => {
   return (
-    <div className={styles.div}>
+    <div className='input-container'>
       <input
         htmlFor={label}
         id={name}
@@ -12,6 +12,7 @@ const Input = ({ label, type, name, value, onChange, error, onBlur }) => {
         onChange={onChange}
         onBlur={onBlur}
         className={styles.input}
+        placeholder="Search..."
       />
       {error && <p className={styles.error}>{error}</p>}
     </div>

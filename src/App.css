@@ -3,6 +3,14 @@ body {
   --type-secont: 'Spectral', georgia;
   font-family: var(--type-first); */
   color: #2d2d2d;
+  width: 736.99px;
+  height: auto;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 58px auto 0 auto;
+  background: #ffffff;
 }
 
 h1,
